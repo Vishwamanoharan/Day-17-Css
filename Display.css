@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+    margin: 0px;
+}
+ 
+/* span{
+    background-color: aquamarine;
+    display: block;
+    display: inline;
+    display: inline-block;
+
+} */
+
+section{
+    width: 800px;
+    height: 400px;
+    border: 1px solid ;
+    margin: 100px 200px;
+    display: flex;
+    justify-content: flex-end ;
+    align-items: flex-end;
+     flex-direction: column-reverse;
+    /* flex-wrap: wrap; */
+
+}
+section>div{
+    width: 100px;
+    height: 100px;
+    background-color: brown;
+    display: flex;
+}
+
